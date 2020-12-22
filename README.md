@@ -30,7 +30,7 @@ To run this project with Server Side Rendering use:
 
 ## Deployment
 
-This project has been deployed on **heroku**. To visit use (https://space-launch-prog.herokuapp.com/)
+This project has been deployed on **heroku**. To visit use (https://space-launch-prog.herokuapp.com/). **CircleCi** pipeline has been used for CI.
 
 ## LightHouse Report
 
