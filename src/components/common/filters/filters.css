@@ -1,0 +1,22 @@
+.filters-container {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  height: 100%;
+}
+
+.filters-heading {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+  .filters-container {
+    width: 20%;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+  .filters-container {
+    width: 30%;
+  }
+}

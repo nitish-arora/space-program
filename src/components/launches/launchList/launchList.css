@@ -1,0 +1,27 @@
+.launch-list-container {
+  display: grid;
+  margin-top: 10px;
+  grid-gap: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+  .launch-list-container {
+    grid-template-columns: repeat(4, 24%);
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+  .launch-list-container {
+    grid-template-columns: repeat(2, 49%);
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .launch-list-container {
+    justify-content: space-between;
+    margin-top: 0;
+    margin-left: 20px;
+  }
+}

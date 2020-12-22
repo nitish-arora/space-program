@@ -1,0 +1,28 @@
+.filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+button.filter-option {
+  width: 35%;
+  margin: 5px;
+  background: #cbe6b2;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  outline: none;
+}
+
+button.filter-option.filter-active {
+  background: #40b002;
+}
+
+.filter-category-title {
+  border-bottom: 2px solid #dedede;
+  width: 65%;
+  text-align: center;
+  margin: 8px auto;
+  font-weight: 500;
+}

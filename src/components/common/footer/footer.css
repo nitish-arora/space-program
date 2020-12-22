@@ -1,0 +1,14 @@
+.app-footer {
+  display: flex;
+  margin: 35px 20px 20px;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+
+.app-footer > .label {
+  font-weight: 600;
+}
+
+.app-footer > .value {
+  margin-left: 10px;
+}
