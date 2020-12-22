@@ -34,4 +34,4 @@ This project has been deployed on **heroku**. To visit use (https://space-launch
 
 ## LightHouse Report
 
-![Alt text]("./public/lighthouse.png")
+![Alt text](./public/lighthouse.png)
