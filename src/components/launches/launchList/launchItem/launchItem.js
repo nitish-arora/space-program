@@ -22,8 +22,8 @@ const LaunchItem = ({ item }) => {
           <span className="label">Mission Ids:</span>
           <span className="value">
             <ul>
-              {item.mission_id.map((id) => (
-                <li key={id}>{id}</li>
+              {item.mission_id.map((id, index) => (
+                <li key={`${id}_${index}`}>{id}</li>
               ))}
             </ul>
           </span>
@@ -34,11 +34,11 @@ const LaunchItem = ({ item }) => {
         </div>
         <div className="description-tile">
           <span className="label">Successful Launch:</span>
-          <span className="value">{item.launch_success.toString()}</span>
+          <span className="value">{item.launch_success}</span>
         </div>
         <div className="description-tile">
           <span className="label">Successful Landing:</span>
-          <span className="value">{item.landing_success || "-"}</span>
+          <span className="value">{item.landing_success}</span>
         </div>
       </div>
     </div>

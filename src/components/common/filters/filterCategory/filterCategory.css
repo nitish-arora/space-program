@@ -13,6 +13,7 @@ button.filter-option {
   border-radius: 5px;
   text-transform: capitalize;
   outline: none;
+  cursor: pointer;
 }
 
 button.filter-option.filter-active {
